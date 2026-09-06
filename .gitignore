@@ -1,0 +1,30 @@
+# Environment variables and secrets
+.env
+.env*.local
+!.env.example
+
+# Virtual environments
+myenv/
+venv/
+env/
+ENV/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Vector database & embeddings storage
+vector_db/
+
+# Streamlit runtime / cache
+.streamlit/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

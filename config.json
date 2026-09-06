@@ -1,0 +1,27 @@
+{
+    "provider": "anthropicai",
+    "anthropicai": {
+        "model": "claude-sonnet-4-5-20250929",
+        "temperature": 0.7,
+        "max_tokens": 1024
+    },
+    "openai": {
+        "model": "gpt-4o-mini",
+        "temperature": 0.7,
+        "max_tokens": 300,
+        "embedding_model": "text-embedding-3-small"
+    },
+    "gemini": {
+        "model": "gemini-2.5-flash",
+        "temperature": 0.7,
+        "max_output_tokens": 300,
+        "embedding_model": "models/gemini-embedding-001"
+    },
+    "huggingface": {
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "voyageai": {
+        "embedding_model": "voyage-3-lite"
+    }
+}
+
